@@ -12,6 +12,6 @@ export function sendToEmail(data) {
   console.log('Sent to email: ', data);
 }
 
-Observer.subscribe(sendToGoogleAnalytics);
+Observer.unsubscribe(sendToGoogleAnalytics);
 Observer.subscribe(sendToCustomAnalytics);
 Observer.subscribe(sendToEmail);

@@ -13,5 +13,4 @@ pinkBtn.addEventListener('click', () => {
 blueBtn.addEventListener('click', () => {
   const data = '🦋 Click on blue button! 🦋';
   Observer.notify(data);
-  Observer.unsubscribe(sendToGoogleAnalytics);
 });
