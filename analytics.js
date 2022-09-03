@@ -12,4 +12,4 @@ export function sendToEmail(data) {
   console.log('Sent to email: ', data);
 }
 
-Observer.subscribe(sendToCustomAnalytics, sendToCustomAnalytics, sendToEmail);
+Observer.unsubscribe(sendToCustomAnalytics, sendToCustomAnalytics, sendToEmail);
